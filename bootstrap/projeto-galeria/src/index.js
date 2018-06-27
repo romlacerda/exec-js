@@ -7,3 +7,5 @@ import 'bootstrap'
 
 // Js
 import './js/core/includes'
+
+import './js/plugins/cityButtons'
