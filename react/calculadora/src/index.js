@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Calculator from './main/Calculator';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <h1>Calculator</h1>
+        <Calculator />
+    </div>, document.getElementById('root'));
 registerServiceWorker();
